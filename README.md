@@ -9,9 +9,9 @@ Https configuration for your [Qwebs server](https://www.npmjs.com/package/qwebs)
 
 ```json
 {
-	"https": {
-        "key": "",
-		"cert": ""
-    },
+  "https": {
+    "key": "Private key to use for SSL",
+    "cert": "Public x509 certificate to use"
+  }
 }
 ```
