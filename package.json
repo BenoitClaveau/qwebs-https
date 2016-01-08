@@ -1,32 +1,32 @@
 {
-  "name": "qwebs-https",
-  "version": "0.0.31",
-  "description": "Https configuration for your Qwebs server",
-  "main": "index.js",
-  "dependencies": {
-    "q": "^1.4.1",
-    "qwebs": "^0.0.31"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/beny78/qwebs-https.git"
-  },
-  "keywords": [
-    "https",
-    "qwebs",
-    "config",
-    "webserver"
-  ],
-  "author": {
-    "name": "Benoît Claveau",
-    "email": "beny78@gmail.com"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/beny78/qwebs-https/issues"
-  },
-  "homepage": "https://github.com/beny78/qwebs-https"
+    "name": "qwebs-https",
+    "version": "0.0.32",
+    "description": "Https configuration for your Qwebs server",
+    "main": "index.js",
+    "dependencies": {
+        "q": "^1.4.1",
+        "qwebs": "^0.0.32"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/beny78/qwebs-https.git"
+    },
+    "keywords": [
+        "https",
+        "qwebs",
+        "config",
+        "webserver"
+    ],
+    "author": {
+        "name": "Benoît Claveau",
+        "email": "beny78@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/beny78/qwebs-https/issues"
+    },
+    "homepage": "https://github.com/beny78/qwebs-https"
 }
