@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Dev\\qwebs\\qwebs-https',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Ben\AppData\Roaming\npm-cache\qwebs-https\0.0.32\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Users\\Ben\\AppData\\Roaming\\npm-cache\\qwebs-https\\0.0.32\\package.tgz',
+9 verbose tar pack   'C:\\Dev\\qwebs\\qwebs-https' ]
+10 verbose tarball C:\Users\Ben\AppData\Roaming\npm-cache\qwebs-https\0.0.32\package.tgz
+11 verbose folder C:\Dev\qwebs\qwebs-https
+12 info prepublish qwebs-https@0.0.32
+13 verbose addLocalTarball adding from inside cache C:\Users\Ben\AppData\Roaming\npm-cache\qwebs-https\0.0.32\package.tgz
+14 silly cache afterAdd qwebs-https@0.0.32
+15 verbose afterAdd C:\Users\Ben\AppData\Roaming\npm-cache\qwebs-https\0.0.32\package\package.json not in flight; writing
+16 verbose afterAdd C:\Users\Ben\AppData\Roaming\npm-cache\qwebs-https\0.0.32\package\package.json written
+17 silly publish { name: 'qwebs-https',
+17 silly publish   version: '0.0.32',
+17 silly publish   description: 'Https configuration for your Qwebs server',
+17 silly publish   main: 'index.js',
+17 silly publish   dependencies: { q: '^1.4.1', qwebs: '^0.0.32' },
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/beny78/qwebs-https.git' },
+17 silly publish   keywords: [ 'https', 'qwebs', 'config', 'webserver' ],
+17 silly publish   author: { name: 'Benoît Claveau', email: 'beny78@gmail.com' },
+17 silly publish   license: 'MIT',
+17 silly publish   bugs: { url: 'https://github.com/beny78/qwebs-https/issues' },
+17 silly publish   homepage: 'https://github.com/beny78/qwebs-https',
+17 silly publish   readme: '# qwebs-https\r\nHttps configuration for your [Qwebs server](https://www.npmjs.com/package/qwebs).\r\n\r\n## Features\r\n\r\n  * [Qwebs](https://www.npmjs.com/package/qwebs)\r\n\r\n### Add the https parameters in config.json\r\n\r\n```json\r\n{\r\n\t"https": {\r\n        "key": "",\r\n\t\t"cert": ""\r\n    },\r\n}\r\n```\r\n',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: '99d7c39fe1406b495ab29269652464409b25aec1',
+17 silly publish   _id: 'qwebs-https@0.0.32',
+17 silly publish   _shasum: '44e0632f2a2e9a11031f5d9b4e7c6ec076ea6745',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name qwebs-https
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/qwebs-https
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading C:\Users\Ben\AppData\Roaming\npm-cache\qwebs-https\0.0.32\package.tgz
+25 verbose request uri https://registry.npmjs.org/qwebs-https
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 00:07:33
+28 verbose request using bearer token for auth
+29 verbose request id 5539699e1a5b7f87
+30 http request PUT https://registry.npmjs.org/qwebs-https
+31 http 403 https://registry.npmjs.org/qwebs-https
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '96',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Fri, 08 Jan 2016 23:07:37 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-fra1236-FRA',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1452294455.962774,VS0,VE1123' }
+33 verbose request invalidating C:\Users\Ben\AppData\Roaming\npm-cache\registry.npmjs.org\qwebs-https on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 0.0.32." : qwebs-https
+35 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:263:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:251:14)
+35 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:171:14)
+35 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1073:14)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1019:12)
+36 verbose statusCode 403
+37 verbose pkgid qwebs-https
+38 verbose cwd C:\Dev\qwebs\qwebs-https
+39 error Windows_NT 10.0.10240
+40 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+41 error node v4.1.1
+42 error npm  v2.14.4
+43 error code E403
+44 error "You cannot publish over the previously published version 0.0.32." : qwebs-https
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
