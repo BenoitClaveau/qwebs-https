@@ -1,0 +1,31 @@
+{
+    "name": "qwebs-https",
+    "version": "0.1.52",
+    "description": "Https server for Qwebs",
+    "main": "index.js",
+    "dependencies": {
+        "qwebs": "^0.1.52"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BenoitClaveau/qwebs-https.git"
+    },
+    "keywords": [
+        "https",
+        "qwebs",
+        "config",
+        "webserver"
+    ],
+    "author": {
+        "name": "Benoît Claveau",
+        "email": "benoit.claveau@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/BenoitClaveau/qwebs-https/issues"
+    },
+    "homepage": "https://github.com/BenoitClaveau/qwebs-https"
+}
