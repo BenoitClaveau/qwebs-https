@@ -1,10 +1,10 @@
 {
     "name": "qwebs-https",
-    "version": "0.2.16",
+    "version": "0.2.17",
     "description": "Https server for Qwebs",
     "main": "index.js",
     "dependencies": {
-        "qwebs": "^0.2.16"
+        "qwebs": "^0.2.17"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
